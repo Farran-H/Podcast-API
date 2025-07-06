@@ -30,10 +30,12 @@ A RESTful backend service for managing and serving a catalog of podcasts, built 
 
 ## 📦 Requirements
 
-- JDK 11 or 17
+- JDK 17
 - sbt (Scala Build Tool)
 - PostgreSQL
 - Git
+- Play Framework
+- Slick
 
 ---
 
