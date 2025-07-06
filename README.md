@@ -40,3 +40,29 @@ A RESTful backend service for managing and serving a catalog of podcasts, built 
 ---
 
 ## 🧪 Running
+
+To run this RESTful API Service, execute the following command in the projects directory
+
+- sbt run
+
+Once entered, navigate to https//:localhost:9000/podcasts, here you will see a JSON repsonse
+
+## 📚 API Endpoints
+
+| Method | Endpoint       | Description               |
+| ------ | -------------- | ------------------------- |
+| GET    | /podcasts      | List all podcasts         |
+| GET    | /podcasts/\:id | Get podcast by ID         |
+| POST   | /podcasts      | Create a new podcast      |
+| GET    | /              | Home page (optional HTML) |
+
+## 🧰 Development Notes
+
+- Slick models are in models/PodcastTable.scala
+- Repositories use dependency injection
+-  Routes defined in conf/routes
+
+
+
+
+
